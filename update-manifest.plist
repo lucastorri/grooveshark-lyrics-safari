@@ -14,7 +14,7 @@
        <key>CFBundleShortVersionString</key>
        <string>1.1</string>
        <key>URL</key>
-       <string>http://github.com/lucastorri/grooveshark-lyrics-safari/raw/master/Grooveshark-Lyrics-1.1.safariextz</string>
+       <string>https://github.com/lucastorri/grooveshark-lyrics-safari/raw/master/dist/Grooveshark-Lyrics-1.1.safariextz</string>
      </dict>
    </array>
 </dict>

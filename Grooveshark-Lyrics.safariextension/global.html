@@ -5,7 +5,6 @@
   var pluginIdentifier = "grooveshark-lyrics";
 
   function performCommand(event) {
-
     if (event.command !== pluginIdentifier)
       return;
 
@@ -14,15 +13,13 @@
     }
 
     safari.application.activeBrowserWindow.activeTab.url = 'http://grooveshark.com';
-
   }
 
-  function validateCommand(event)
-  {
-      if (event.command !== pluginIdentifier)
-          return;
+  function validateCommand(event) {
+    if (event.command !== pluginIdentifier)
+      return;
 
-      event.target.disabled = false;
+    event.target.disabled = false;
   }
 
   safari.application.addEventListener("command", performCommand, false);
